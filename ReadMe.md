@@ -1,7 +1,7 @@
 # Real-time Face Mask Detection Project
 
 ## Introduction
-This project implements real-time face detection and mask detection using TensorFlow Lite for face detection and a custom trained mask detection model. It detects faces in images or video streams in real-time, draws bounding boxes around the detected faces, and predicts whether the person is wearing a mask or not.
+This project implements real-time face detection and mask detection using TensorFlow Lite for face detection and a custom-trained mask detection model. It detects faces in images or video streams in real-time, draws bounding boxes around the detected faces, and predicts whether the person is wearing a mask or not.
 
 ## Files
 - **main.py**: This is the main Python script containing the implementation of the face and mask detection system.
@@ -13,8 +13,8 @@ This project implements real-time face detection and mask detection using Tensor
   - **face_detection_front.tflite**: TensorFlow Lite model file for face detection (BlazeFace) with a shorter range.
   - **face_detection_full_range.tflite**: TensorFlow Lite model file for face detection (BlazeFace) with the full detection range.
   - **face_detection_back.tflite**: TensorFlow Lite model file for face detection (BlazeFace) with the back camera configuration.
-  - **mask_detection_128.tflite**: TensorFlow Lite model file for mask detection with a image size of 128.
-  - **mask_detection_192.tflite**: TensorFlow Lite model file for mask detection with a image size of 192.
+  - **mask_detection_128.tflite**: TensorFlow Lite model file for mask detection with an image size of 128.
+  - **mask_detection_192.tflite**: TensorFlow Lite model file for mask detection with an image size of 192.
 
 ## Dependencies
 - TensorFlow
@@ -22,10 +22,10 @@ This project implements real-time face detection and mask detection using Tensor
 - NumPy
 
 ## Usage
-1. Clone the repository: `git clone https://github.com/your-username/real-time-face-mask-detection.git`
-2. Navigate to the project directory: `cd real-time-face-mask-detection`
+1. Clone the repository: `git clone https://github.com/iamvikrantrajput/Real-Time-Face-Mask-Detection.git`
+2. Navigate to the project directory: `cd Real-Time-Face-Mask-Detection`
 3. Install the dependencies: `pip install -r requirements.txt`
-4. Run the main script: `python main.py`
+4. Run the main script: `python app.py`
 
 ## References
 - [BlazeFace: Sub-millisecond Neural Face Detection on Mobile GPUs](https://arxiv.org/abs/1907.05047) by Valentin Bazarevsky and Andrei Tkachenka.
