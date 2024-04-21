@@ -1,0 +1,10 @@
+BlazeFaceDetection/BlazeFace.py
+Mask_Detector/MaskDetector.py
+notebooks/face_mask_192.ipynb
+FMD_DATASET
+PREPARE_DATA
+tmp
+blazeface_inference.py
+Models/*.tflite
+.venv
+.vscode
